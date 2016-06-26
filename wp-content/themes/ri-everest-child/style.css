@@ -1,0 +1,55 @@
+/*
+Theme Name: Ri Everest Child Theme
+Theme URI: https://rivertheme.com
+Description: Child theme of Everest
+Author: River theme
+Author URI: https://rivertheme.com
+Template: ri-everest
+Version: 1.0.0
+*/
+@import url("../ri-everest/style.css");
+
+.header-transparent .right-bottom-header{
+
+	display:none !important;
+}
+
+ul#primary-menu.nav-menu > li{
+	float: right !important;
+}
+
+
+
+nav.primary-nav-block a{
+	color: #fff !important;
+}
+
+.header-transparent #rit-bottom-header {
+  
+border:none;
+}
+
+.header-transparent #primary-nav {
+    width: 80%;
+   
+    margin: 0 auto;
+}
+
+
+.header-transparent .sticky-wrapper.is-sticky #rit-bottom-header.wrapper-header-transparent{
+	
+	background: rgb(50, 197, 210) !important;
+}
+
+.wpb_wrapper p{
+	font-size: 1.2em;
+}
+
+.wcs3-schedule-wrapper table th{
+padding-left:10px;
+}
+
+ul#primary-menu.nav-menu .menu-item-has-children .sub-menu a {
+    color: #7d7d7d !important;
+
+}

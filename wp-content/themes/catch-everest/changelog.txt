@@ -1,0 +1,251 @@
+== Change Log ==
+
+Version 2.7.4
+* Bug Fixed: site-logo element changed from h1 to div
+* Bug Fixed: Used consistent if statements
+
+Version 2.7.3
+* Bug Fixed: Incorrect id for Featured Content in customizer
+* Bug Fixed: Demo featured content not showing up in Customizer Live Preview; used array_filter
+
+Version 2.7.2
+* Added: Helper Text and buttons in Theme Options Page
+* Bug Fixed: Made Header image empty when it is migrated to logo
+* Removed: max-width parameter in custom header(depreciated)
+* Updated: Default strings made translation ready
+
+Version 2.7.1
+* Added: Custom Header Support
+* Bug Fixed: Made Custom Logo width flexible
+
+Version 2.7
+* Changed: Featured Content limit changed from 20 to 24
+* Updated: Content Width Implementation
+* Updated: Theme Layout retrieval via function
+* Updated: Favicon and Web Clip Migration to Site Icon( Core Support )
+* Updated: Logo to Custom Logo( Core Support ) for WP version 4.5
+
+version 2.6
+* Added: Disable scrollup option.
+* Bug Fixed: Theme Instructions and Changelog links in customizer
+* Compatibility fix: Customizer Reset option not working when returning any value in WordPress 4.4
+* Updated: German language file
+* Updated: Genericons version 3.4.1
+
+version 2.5.1
+* Bug Fixed: Customizer Dropdown type saving issue
+* Bug Fixed: Check to Disable Latest posts changed to Check to Disable latest posts( Reported by mr-nocommentmsn-com )
+* Bug Fixed: Excerpt More Tag sanitization issue
+* Update: Text Domain in style.css updated to catch-everest
+
+version 2.5
+* Added all theme options to customizer
+* Updated German language file
+
+version 2.4
+* Added Danish translation da_DK.po and da_DK.mo files
+* Compatible with WordPress 4.3
+* Removed support for WordPress version less than 4.1
+* Updated Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+* Updated codes to comply with deprecating PHP4 style constructors in WordPress 4.3
+* Updated text-domain
+
+version 2.3
+* Added Bosnian translation bs_BA.po and bs_BA.mo
+* Bug Fixed: Sidebar layout option (Reported by notjustblack )
+
+version 2.2.1
+* Bug Fixed: Sidebar widget issue in mobile devices
+* Bug Fixed: Gallery page not showing images (Reported by michellebergmann )
+* Changed screenshot
+* Updated theme description
+
+version 2.2
+* Added Turkish translation tr_TR.po and tr_TR.mo
+* Added responsive support for iPhone6
+* Bug Fixed: responsive design issues
+
+version 2.1
+* Added Catalan translation ca_ES.po and ca_ES.mo
+
+version 2.0
+* Added German translation de_DE.po and de_DE
+
+version 1.9
+* Added title tag via add theme support
+* Added changelog.txt file which list the theme change log
+* Added More theme option button in customizer
+* Bug Fixed: Content width when used No Sidebar,Full Width layout
+* Bug Fixed: wp_enqueue_style conficting with plugin as it was missing prefix
+* Changed footer text
+* Replaced get_bloginfo() with admin_url() that links to Theme Options in post/page meta
+* Updated media uploader to new version in theme options
+
+version 1.8
+* Added Dutch translation nl_NL.po and nl_NL.mo
+* Added contact social links options
+* Added Xing in social links options
+* Fixed scroll up issue in mobile devices
+
+version 1.7
+* Added support for pagination plugin WP-PageNavi and WP Page Numbers
+* Added Scroll Up script
+* Added genericons
+
+version 1.6
+* Added email in social link option
+* Optimized Theme Options panel to speed up
+
+version 1.5.4
+* Added Brazilian Portuguese translation pt_BR.po and pt_BR.mo
+
+version 1.5.3
+* Removed rem in width, padding and margins, now only in font sizes css
+
+version 1.5.2
+* Added French translation fr_FR.po and fr_FR.mo
+
+version 1.5.1
+* Added Japanese translation ja.po and ja.mo
+* Updated Spanish translation
+
+version 1.5
+* Added Russian translation ru_RU.po and ru_RU.mo
+
+version 1.4.3
+* Added Aria Haspopup for menu in Touch Devices
+* Removed unnecessary css
+
+version 1.4.2.1
+* Fixed mobile menu link issue
+
+version 1.4.2
+* Added German - SWITZERLAND translation de_CH.po and de_CH.mo
+
+version 1.4.1
+* Fixed sidebar layout option in individual image of Gallery
+* Minified admin script
+
+version 1.4
+* Replaced theme screenshot file to match with WordPress 3.8
+* Fixed menu white-space css issues
+* Updated theme Tag Filter in style.css
+* Updated responsive menu script
+* Updated slider script
+* Update IE script
+* Removed Redirect to Theme Options Page on Activation as per new theme review guideline
+* Removed depreciated functions add_custom_image_header()
+
+version 1.3.1
+* Added No Sidebar Full Width Content Layout
+
+version 1.3
+* Added Catch Everest: Advertisement widget to add google ads and custom image ads
+
+version 1.2.3
+* Fixed blog template more tag issue
+
+version 1.2.2
+* Added Soundcloud social icon
+* Fixed Skype Link Data Validation as per https://dev.skype.com/skype-uri
+
+version 1.2.1
+* Fixed Web Clip Icon
+
+version 1.2
+* Added Vkontakte, My World, Odnoklassniki, Goodreads and Skype Social Icons
+* Fixed admin.js to support WordPress 3.6 jQuery UI version update
+
+version 1.1.5
+* Added Jetpack Infinite Scroll support
+
+version 1.1.4
+* Fixed translation function for search, homepage headline and homepage featured content
+
+version 1.1.3
+* Added CSS3 compatible JS for IE8
+* Fixed homepage template to display the blog setting
+* Fixed the slider script js_value not defined if enable slide only on homepage
+* Fixed edit post path in Theme Options panel
+* Removed Webmaster Tools as the new guideline of WordPress.org. Now, use plugin for this.
+
+version 1.1.2
+* Disable Web Clip Icon and Fav icon by default
+
+version 1.1.1
+* Added Web Clip Icon image
+
+version 1.1
+* Added white-space property control in Menu to fixed the text wrap in mobile devices
+* Fixed the conditions for Slider, Homepage Headline and Homepage Featured Content
+
+version 1.0
+* Added Italian translation it_IT.po and it_IT.mo
+* Fixed Responsive width issue in IE8
+* Fixed Homepage conditions while setting static Posts Page
+* Fixed Posts page issue to display blog
+
+version 0.3
+* Added GitHub Social Icon
+* Added span in default slider title
+* Replaced get_bloginfo( 'url' ) to esc_url( home_url( '/' ) )
+
+version 0.2
+* Added page template Blog to show blog on any page.
+* Added support for WordPress SEO Plugin
+* Added IE version specific div ID in header
+* Fixed Responsive Menu to set default as Menu when there is no current menu such as for search, 404 and other non menu items.
+* Fixed minor css for mobile devices font sizes and menu widgets
+* Fixed Header image height and width issue
+* Fixed IE7 and IE8 minor issues to make it compatible
+
+version 0.1.5.2
+* Fixed typo error in Theme Options => Featured Post Slider
+* Deleted unused catchbox-menu.js and catchbox-menu.min.js
+* Added Instagram Social Icon
+
+version 0.1.5.1
+* Fixed featured post slider option issue on homepage only
+
+version 0.1.5
+* Fixed the homepage condition by removing is_home()
+* Added Spanish translation es_ES.po and es_ES.mo
+
+version 0.1.4
+* Added Post ID shown in the All Posts Table in admin section
+* Fixed Homepage featured content loop for more than 6 items
+* Added function_exists() condition to support child theme easy editing
+* Fixed IE8 issue of Header Image and placeholder
+* Added active menu support for default page menu
+* Added Chinese translation zh_CN.po and zh_CN.mo
+
+Version 0.1.3.1
+* Fixed Header Code which was displaying in Footer
+* Fixed grammatical in Social Icons title
+* Removing extra datas in theme options page
+* Fixed header search width css
+* Fixed font
+
+Version 0.1.2.3
+* Fixed header css when Show header text with your image is disable in Custom Header
+* Fixed More Tag to be kept empty as well. This fixed the problem in the server where Theme Option was not being saved.FeaVersion 0.1.3
+* Added Homepage Featured Content Headline
+* Added Polish translation pl_PL.po and pl_PL.mo
+
+Version 0.1.2.2
+* Fixed Link issue in Featured Post Slider Image
+
+Version 0.1.2.1
+* Fixed Custom Background link in Theme Options panel
+
+Version 0.1.2
+* Added Missing Translation for Footer Texts
+* Improved Cache with Transient API
+
+Version 0.1.1
+* Fixed the Theme Options css to load Add Image thickbox css
+* Updated Theme URL and readme.txt to include support forum and theme instruction
+
+Version 0.1
+* Submitted theme to WordPress.org Theme Repository
+* First public appearance
